@@ -8,6 +8,7 @@ body {
     padding: 0;
     height: 100%;
     font-family: "calendula", sans-serif;
+    background-color: #fff9ef;
 }
 
 
@@ -23,19 +24,19 @@ header {
 
 header h2 {
     justify-content: center;
-    color: #f2951f;
+    color: #ed6a12;
     
 }
 
 header i {
-    color: #f2951f;
+    color: #ed6a12;
 }
 
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #f2951f;
+    background-color: #fab029;
     border-radius: 30px;
     padding: 15px 50px;
     margin: 0 45px;
@@ -50,7 +51,7 @@ nav a {
 }
 
 i {
-    color: white;
+    color: #FFFFFF;
     cursor: pointer;
 }
 
@@ -63,13 +64,15 @@ i {
 
 .welcome h1 {
     text-align: center;
+    color: #ed6a12;
 }
 
 .welcome p {
     margin-left: 25px;
     margin-right: 25px;
-    font-size: 25px;
     margin-bottom: 60px;
+    font-size: 22px;
+    color: #a39e98;
 }
 
 
@@ -78,7 +81,7 @@ i {
 
 
 .search-bar {
-    background-color: #D3D3D3;
+    background-color: white;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -87,11 +90,16 @@ i {
     margin-left: 40px;
     margin-right: 45px;
     border-radius: 20px;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.05)
 }
 
 .search-bar i {
     padding-left: 15px;
-    color: black;
+    color: #ed6a12;
+}
+
+.search-bar p {
+    color: #a39e98;
 }
 
 .food-grid {
@@ -113,6 +121,8 @@ i {
 .food-item h3 {
     margin-bottom: 5px;
     font-weight: bolder;
+    color: #ed6a12;
+    font-weight: bolder;
 }
 
 
@@ -120,6 +130,7 @@ i {
     padding-top: 0px;
     margin-top: 0px;
     font-weight: 100;
+    color: #a39e98;
 }
 
 .food-item img {
@@ -156,7 +167,7 @@ i {
 }
 
 .overlay-buttons i {
-    /* color: #f2951f; */
+    color: #fff9ef;
     margin-top: 40px;
     font-size: 25px;
 }
@@ -168,17 +179,25 @@ i {
     
 }
 
-.food-info-container p {
-    font-size: 25px;
+.food-info-container h1 {
+    color: #ed6a12;
+    margin-bottom: 15px;
 }
 
 .food-left i {
     color: #f2951f;
 }
 
+.food-info-container p {
+    font-size: 20px;
+    color: #a39e98;
+}
+
 .food-right p {
     font-weight: 800;
-    font-size: 30px;
+    font-size: 50px;
+    color: #ed6a12;
+    margin-top: 20px;
 }
 
 .food-actions {
