@@ -13,7 +13,6 @@ body {
 
 
 header {
-    /* background-color: #f2951f; */
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
@@ -83,7 +82,7 @@ i {
 
 
 .search-bar {
-    background-color: white;
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -223,7 +222,7 @@ i {
     border: none;
     border-radius: 15px;
     background-color: #f2951f;
-    color: white;
+    color: #FFFFFF;
 }
 
 .quantity-selector p {
