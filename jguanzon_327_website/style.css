@@ -44,6 +44,8 @@ nav {
     position: sticky;
     z-index: 9999;
     font-size: 25px;
+    box-shadow: 0 10px 30px rgba(250, 176, 0, 0.4)
+    
 }
 
 nav a {
@@ -147,8 +149,6 @@ i {
 }
 
 .food-hero-container img{
-    /* width: 100%;
-    height: auto; */
     width: auto;
     height: 350px;
 }
@@ -255,34 +255,39 @@ i {
 
 .location img {
     width: 96%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
 }
 
 .zoom {
     position: absolute;
     border: none;
     font-size: 30px;
-    color: white;
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-left: 87%;
-    bottom: 25%;
+    bottom: 28%;
 }
 
 .description {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
 .description i {
-    color: black;
+    color: #ed6a12;
     font-size: 25px;
 }
 
+.description span {
+    color: #a39e98;
+}
 
 .description h3 {
     margin-left: 34px;
     margin-top: 10px;
+    color: #ed6a12;
 }
 
 
@@ -292,9 +297,13 @@ i {
     margin-bottom: 75px;
 }
 
+.hours h1 {
+    color: #ed6a12;
+}
+
 .hours-bar {
-    background-color: black;
-    color: white;
+    background-color: #ffe8c2;
+    color: #ffbb7e;
     margin: 25px 70px;
     padding: 20px 50px;
     border-radius: 35px;
@@ -303,11 +312,15 @@ i {
     justify-content: space-between;
 }
 
+.hours span{
+    font-weight: 900;
+}
 
 /* CART */
 
 .orderheader {
     margin-left: 50px;
+    color: #ed6a12;
 }
 
 
@@ -329,10 +342,12 @@ i {
 
 .order-right h3 {
     margin-top: 0;
+    color: #ed6a12;
 }
 
 .order-right p {
     font-size: 13px;
+    color: #a39e98;
 }
 
 .quantity-selector2 {
@@ -345,7 +360,7 @@ i {
 }
        
 .quantity-selector2 button {
-    color: white;
+    color: #FFFFFF;
     background-color: #f2951f;
     font-size: 30px;
     border: none;
@@ -361,26 +376,31 @@ i {
 }
 
 .payment-info {
-    margin: 25px 50px;
+    margin: 35px 50px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
+    background-color: #ffe8c2;
+    padding: 30px;
+    border-radius: 30px;
 }
 
 .text {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    color: #ffbb7e;
 }
 
 .total {
     font-size: 30px;
     font-weight: 600;
+    color: #ed6a12;
 }
 
 .order {
     background-color: #f2951f;
-    color: white;
+    color: #FFFFFF;
     font-size: 25px;
     text-align: center;
     margin: 0px 70px;
